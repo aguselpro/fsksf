@@ -55,7 +55,7 @@ const programa=[
  {date:'2026-10-24',day:'Sábado',items:[
   ['08:00 a 10:00','Neghme/Robinson Rojas','Jéssica Cortez','Danitza Beltrán','sky'],
   ['10:00 a 12:00','Cementerio Parque de la Paz','Sin PP','Sin PP','peach'],
-  ['10:00 a 12:00','Plaza Megillones/Linderos','Sin PP','Sin PP','sky']]}
+  ['10:00 a 12:00','Plaza Mejillones/Linderos','Sin PP','Sin PP','sky']]}
 ];
 const fmtDate=(iso)=>new Intl.DateTimeFormat('es-CL',{day:'2-digit',month:'2-digit',year:'numeric',timeZone:'UTC'}).format(new Date(iso+'T12:00:00Z'));
 const todayIso=()=>{const d=new Date();return [d.getFullYear(),String(d.getMonth()+1).padStart(2,'0'),String(d.getDate()).padStart(2,'0')].join('-')};
